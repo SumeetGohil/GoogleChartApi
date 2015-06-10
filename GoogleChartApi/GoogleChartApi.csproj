@@ -74,7 +74,6 @@
     <EmbeddedResource Include="GoogleChart.ascx" />
     <EmbeddedResource Include="Resources\google-chart-api.js" />
     <EmbeddedResource Include="Resources\jsapi.js" />
-    <Content Include="Test.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -85,8 +84,8 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="GeoParam.cs" />
-    <Compile Include="GeoOption.cs" />
+    <Compile Include="GoogleChartClass\GeoParam.cs" />
+    <Compile Include="GoogleChartClass\GeoOption.cs" />
     <Compile Include="GoogleChart.ascx.cs">
       <DependentUpon>GoogleChart.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -94,22 +93,15 @@
     <Compile Include="GoogleChart.ascx.designer.cs">
       <DependentUpon>GoogleChart.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Legend.cs" />
-    <Compile Include="ColumnOption.cs" />
-    <Compile Include="LineOption.cs" />
-    <Compile Include="ColumnParam.cs" />
-    <Compile Include="LineParam.cs" />
-    <Compile Include="PieOption.cs" />
-    <Compile Include="PieParam.cs" />
+    <Compile Include="GoogleChartClass\Legend.cs" />
+    <Compile Include="GoogleChartClass\ColumnOption.cs" />
+    <Compile Include="GoogleChartClass\LineOption.cs" />
+    <Compile Include="GoogleChartClass\ColumnParam.cs" />
+    <Compile Include="GoogleChartClass\LineParam.cs" />
+    <Compile Include="GoogleChartClass\PieOption.cs" />
+    <Compile Include="GoogleChartClass\PieParam.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Test.aspx.cs">
-      <DependentUpon>Test.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Test.aspx.designer.cs">
-      <DependentUpon>Test.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="TextStyle.cs" />
+    <Compile Include="GoogleChartClass\TextStyle.cs" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

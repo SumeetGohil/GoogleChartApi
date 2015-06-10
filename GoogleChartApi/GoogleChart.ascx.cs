@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -9,8 +10,9 @@ using System.Web.UI.WebControls;
 [assembly: WebResource("GoogleChartApi.Resources.jsapi.js", "text/javascript", PerformSubstitution = true)]
 [assembly: WebResource("GoogleChartApi.Resources.google-chart-api.js", "text/javascript", PerformSubstitution = true)]
 namespace GoogleChartApi
-{    
-    [ToolboxData("<{0}:GoogleChartApi runat=\"server\"></{0}:GoogleChartApi>")]
+{
+    [DefaultProperty("ChartType")]
+    [ToolboxData("<{0}:GoogleChartApi runat=\"server\" ChartType=\"[ChartType]\" ></{0}:GoogleChartApi>")]
     public partial class GoogleChart : System.Web.UI.UserControl
     {
         public enum GoogleChartType { GEO, LINE, COLUMN, PIE };       
