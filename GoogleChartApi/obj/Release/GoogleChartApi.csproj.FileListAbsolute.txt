@@ -1,8 +1,0 @@
-E:\sumeet\GoogleChartApi\GoogleChartApi\bin\GoogleChartApi.dll.config
-E:\sumeet\GoogleChartApi\GoogleChartApi\bin\GoogleChartApi.dll
-E:\sumeet\GoogleChartApi\GoogleChartApi\bin\GoogleChartApi.pdb
-E:\sumeet\GoogleChartApi\GoogleChartApi\bin\Newtonsoft.Json.dll
-E:\sumeet\GoogleChartApi\GoogleChartApi\bin\Newtonsoft.Json.xml
-E:\sumeet\GoogleChartApi\GoogleChartApi\obj\Release\GoogleChartApi.csprojResolveAssemblyReference.cache
-E:\sumeet\GoogleChartApi\GoogleChartApi\obj\Release\GoogleChartApi.dll
-E:\sumeet\GoogleChartApi\GoogleChartApi\obj\Release\GoogleChartApi.pdb
